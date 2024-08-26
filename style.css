@@ -1,0 +1,45 @@
+header, footer{
+	color: White; /*teksti värv*/
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+	width: 45%; /*laius*/
+	text-align: center;
+	border: solid 3pt White; /*piir - sold, dashed, dotted, double*/
+	border-radius: 100px 100px 100px 100px;
+	padding: 1%;
+}
+main section {
+	background-color: White;
+	border: solid 3pt #090979;
+	margin:3px;
+	width: 40%;
+	padding: 1%;
+}
+main section h2{
+	color: Black;
+	font-variant: small-caps;
+}
+
+nav ul {
+  list-style-type: none; /*Loetelu markerid*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nav elemendid*/
+  background-color: Black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*underline*/
+}
+
+nav li a:hover {
+  background-color: #111;
+}
